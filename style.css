@@ -50,6 +50,8 @@ html body {
     text-align: center;
     color: rgb(242, 247, 247);
     font-size: 30px;
+    background-size: cover;
+    border: 2px black solid;
 }
 #acao {
     color: rgb(243, 147, 21);
@@ -60,5 +62,34 @@ html body {
     margin-left: 20px;
     color: rgb(15, 15, 15);
     border: 2px solid;
-    padding: 3px;
+    padding: 3px;    
+}
+section {
+    padding: 20px;
+    float: center;
+
+}
+.destaque{
+    background-color:  white;
+}
+.projeto {
+    width: 90%;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+.justificada { 
+    text-align: justify;
+
+}
+#cameback {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    color: rgb(0, 140, 255);
+    padding: 30px;
+    border: 4px rgb(186, 201, 201) solid
 }
